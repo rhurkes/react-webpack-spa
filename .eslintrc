@@ -1,0 +1,13 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "comma-dangle": "off"
+  },
+  "globals": {
+    "localStorage": true,
+    "document": true,
+    "fetch": true,
+    "describe": true,
+    "it": true
+  }
+}
