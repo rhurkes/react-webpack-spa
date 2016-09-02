@@ -1,0 +1,31 @@
+- Config service to avoid repeating consts in multiple files
+- Finish JSDoc'ing things
+- Handle CSS better
+- Authenticated requests to GitHub API
+- Pagination of users, contribs, repos, etc.
+- Proper state management (Redux, MobX, maybe even just non-DOM observable lib like MicroEvents)
+- Check in IE - Firefox/Safari/Chrome all look good.
+- Back button / routing
+- Image not updating immediately in profile when switching users
+- Enable linting automatically
+- Webpack not resolving jsx files - module not found errors
+- Optimizations on output bundle
+- 100% code coverage / testing components
+- Stub/mock fetch
+- Abstract dupe code in github.js
+- MDL loading doesn't work in grid
+
+DONE Their Github image
+DONE • A list of their repos
+DONE • Their public location
+DONE • Their public email
+DONE • Their join date
+
+Extra credit:
+DONE • Their total number of contributions in the last year
+DONE • The organizations to which they belong
+DONE • A list of repos they have contributed to
+DONE • Well-styled: feel free to use a css library including bootstrap, material design, foundation or a similar style framework.
+• The back button works
+DONE • The sidebar and main content views could have loading states while data is being fetched from the server
+PSEUDO-DONE • Tests
